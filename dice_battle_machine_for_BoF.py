@@ -188,7 +188,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                             print_text = '赤コーナー・{}選手のKO勝利!\n'.format(red_boxer.name)
                             print(print_text)
                             log_text += print_text + '\n'
-                            with open(log_title, mode='w', encoding='utf-8') as f:
+                            with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                                 f.write(log_text)
                             input('キーを押したら終了します')
                             break
@@ -231,7 +231,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '赤コーナー・{}選手のKO勝利!\n'.format(red_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -280,7 +280,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '赤コーナー・{}選手のKO勝利!\n'.format(red_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -323,7 +323,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '赤コーナー・{}選手のKO勝利!\n'.format(red_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -377,7 +377,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '赤コーナー・{}選手のKO勝利!\n'.format(red_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -416,7 +416,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '赤コーナー・{}選手のKO勝利!\n'.format(red_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -448,7 +448,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '赤コーナー・{}選手のKO勝利!\n'.format(red_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -480,7 +480,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '赤コーナー・{}選手のKO勝利!\n'.format(red_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -524,7 +524,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                     print_text = '赤コーナー・{}選手のTKO勝利!\n'.format(red_boxer.name)
                     print(print_text)
                     log_text += print_text + '\n'
-                    with open(log_title, mode='w', encoding='utf-8') as f:
+                    with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                         f.write(log_text)
                     input('キーを押したら終了します')
                     break
@@ -556,7 +556,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '赤コーナー・{}選手のKO勝利!\n'.format(red_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -605,7 +605,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '赤コーナー・{}選手のKO勝利!\n'.format(red_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -648,7 +648,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '赤コーナー・{}選手のKO勝利!\n'.format(red_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -691,7 +691,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '赤コーナー・{}選手のKO勝利!\n'.format(red_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -728,7 +728,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '赤コーナー・{}選手のKO勝利!\n'.format(red_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -753,7 +753,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                     print_text = '赤コーナー・{}選手のTKO勝利!\n'.format(red_boxer.name)
                     print(print_text)
                     log_text += print_text + '\n'
-                    with open(log_title, mode='w', encoding='utf-8') as f:
+                    with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                         f.write(log_text)
                     input('キーを押したら終了します')
                     break
@@ -839,7 +839,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                             print_text = '青コーナー・{}選手のKO勝利!\n'.format(blue_boxer.name)
                             print(print_text)
                             log_text += print_text + '\n'
-                            with open(log_title, mode='w', encoding='utf-8') as f:
+                            with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                                 f.write(log_text)
                             input('キーを押したら終了します')
                             break
@@ -882,7 +882,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '青コーナー・{}選手のKO勝利!\n'.format(blue_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -931,7 +931,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '青コーナー・{}選手のKO勝利!\n'.format(blue_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -974,7 +974,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '青コーナー・{}選手のKO勝利!\n'.format(blue_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -1027,7 +1027,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '青コーナー・{}選手のKO勝利!\n'.format(blue_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -1065,7 +1065,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '青コーナー・{}選手のKO勝利!\n'.format(blue_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -1096,7 +1096,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '青コーナー・{}選手のKO勝利!\n'.format(blue_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -1127,7 +1127,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '青コーナー・{}選手のKO勝利!\n'.format(blue_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -1152,7 +1152,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '青コーナー・{}選手のKO勝利!\n'.format(blue_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -1173,7 +1173,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                     print_text = '青コーナー・{}選手のTKO勝利!\n'.format(blue_boxer.name)
                     print(print_text)
                     log_text += print_text + '\n'
-                    with open(log_title, mode='w', encoding='utf-8') as f:
+                    with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                         f.write(log_text)
                     input('キーを押したら終了します')
                     break
@@ -1204,7 +1204,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '青コーナー・{}選手のKO勝利!\n'.format(blue_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -1253,7 +1253,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '青コーナー・{}選手のKO勝利!\n'.format(blue_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -1295,7 +1295,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '青コーナー・{}選手のKO勝利!\n'.format(blue_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -1337,7 +1337,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '青コーナー・{}選手のKO勝利!\n'.format(blue_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -1373,7 +1373,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                         print_text = '青コーナー・{}選手のKO勝利!\n'.format(blue_boxer.name)
                         print(print_text)
                         log_text += print_text + '\n'
-                        with open(log_title, mode='w', encoding='utf-8') as f:
+                        with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                             f.write(log_text)
                         input('キーを押したら終了します')
                         break
@@ -1405,7 +1405,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                     print_text = '赤コーナー・{}選手のTKO勝利!\n'.format(blue_boxer.name)
                     print(print_text)
                     log_text += print_text + '\n'
-                    with open(log_title, mode='w', encoding='utf-8') as f:
+                    with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                         f.write(log_text)
                     input('キーを押したら終了します')
                     break
@@ -1456,7 +1456,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                     print_text = '判定により、勝者・赤コーナー・{}選手!\n'.format(red_boxer.name)
                     print(print_text)
                     log_text += print_text + '\n'
-                    with open(log_title, mode='w', encoding='utf-8') as f:
+                    with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                         f.write(log_text)
                     input('キーを押したら終了します')
                     break
@@ -1464,7 +1464,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                     print_text = '判定により、勝者・青コーナー・{}選手!\n'.format(blue_boxer.name)
                     print(print_text)
                     log_text += print_text + '\n'
-                    with open(log_title, mode='w', encoding='utf-8') as f:
+                    with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                         f.write(log_text)
                     input('キーを押したら終了します')
                     break
@@ -1472,7 +1472,7 @@ def match(FIGHT_LOG_DIR,max_round,red_boxer,blue_boxer):
                     print_text = '判定によりこの試合引き分け。\n'
                     print(print_text)
                     log_text += print_text + '\n'
-                    with open(log_title, mode='w', encoding='utf-8') as f:
+                    with open(log_title+'.txt', mode='w', encoding='utf-8') as f:
                         f.write(log_text)
                     input('キーを押したら終了します')
                     break
